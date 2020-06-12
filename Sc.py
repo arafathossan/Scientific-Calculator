@@ -7,8 +7,7 @@ sc = Tk()
 sc.title("Scientific Calculator")
 sc.iconbitmap(sc,r"C:\Users\Md. Arafat Hossan\PY\calc.ico")
 sc.config(bg="#4a485d")
-sc.resizable(width=False, height=False)
-sc.geometry("303x485+0+0")
+
 
 calc = Frame(sc,bg="#4a485d",bd=10)
 calc.grid()
